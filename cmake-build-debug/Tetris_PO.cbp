@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tetris_PO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tetris_PO">
+				<Option output="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Tetris_PO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tetris_PO"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tetris_PO/fast">
+				<Option output="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Tetris_PO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tetris_PO/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tom/CLionProjects/Tetris_PO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/board.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/board.h">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/figure.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/figure.h">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/main.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/menu.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/menu.h">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/point.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/point.h">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/score.cpp">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/score.h">
+			<Option target="Tetris_PO"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/tom/CLionProjects/Tetris_PO/../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
